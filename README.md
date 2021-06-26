@@ -19,7 +19,7 @@ Certifique-se de ter instalado em sua maquina estas ferramentas: Git e um editor
 * ``` git clone https://github.com/FIXSartoreto/orbuc-teste.git ```  
 2. Entre na pasta do repositório que você acabou de clonar:  
 * ``` cd orbuc-teste ```
-4. Inicie o projeto no backend:  
+3. Inicie a aplicação no seu Browser:  
 * Abra o arquivo index.html no seu navegador. ```
 Divirta-se!!  
 
