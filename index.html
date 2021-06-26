@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Job Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/eebfeb63e5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="h4-container">
+        <h4 class="text-white">Controle de Locais de Trabalho</h4>
+      </div>
+      <div class="user-container">
+        <div class="home-icon">
+          <i class="material-icons">home</i>
+        </div>
+        <div class="user-icon">
+          <i class="material-icons">perm_identity</i>
+          <div class="header-text-user">
+            <p class="text-white">Usuário</p>
+            <span class="text-white">Administrador</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="section-container">
+      <section class="side-menu">
+        <div class="settings">
+          <i class="small material-icons">settings</i>          
+          <p>Administração</p>
+        </div>
+      </section>
+      <section class="main-content">
+        <div class="container-content">
+          <h4>Locais de Trabalho</h4>
+          <div class="inputs-container">
+            <div class="select-container">
+              <label for="building">Prédio</label>
+              <select name="building-list" id="building" class="building-list">
+                <option value="default">Escolha</option>
+              </select>
+            </div>
+            <div class="button-location">
+              <div class="location-container">
+                <label for="location">Local de Trabalho</label>
+                <input type="text" class="input-location">
+              </div>
+            </div>
+          </div>
+          <table class="table table-primary table-hover table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="row">Prédio</th>
+                <th scope="row">Local de Trabalho</th>
+                <th scope="row"></th>
+              </tr>
+            </thead>
+            <tbody class="table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
