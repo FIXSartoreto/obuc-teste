@@ -2,10 +2,10 @@
 ### Controle de locais de trabalho  
 
 ## Tabela de conteúdos
-* [Sobre](https://github.com/FIXSartoreto/orbuc-teste#Sobre)
-* [Instalação](https://github.com/FIXSartoreto/orbuc-teste#Instalação)
-* [Como-usar](https://github.com/FIXSartoreto/orbuc-teste#Como-usar)
-* [Tecnologias](https://github.com/FIXSartoreto/orbuc-teste#Tecnologias)
+* [Sobre](https://github.com/FIXSartoreto/obuc-teste#Sobre)
+* [Instalação](https://github.com/FIXSartoreto/obuc-teste#Instalação)
+* [Como-usar](https://github.com/FIXSartoreto/obuc-teste#Como-usar)
+* [Tecnologias](https://github.com/FIXSartoreto/obuc-teste#Tecnologias)
 
 ## Sobre
 Aplicação que faz o controle de locais de trabalho, sendo possivel fazer a edição e adição dos locais.
@@ -16,7 +16,7 @@ Certifique-se de ter instalado em sua maquina estas ferramentas: Git e um editor
 
 #### Rodando a aplicação localmente  
 1. Clone o repositório  
-* ``` git clone https://github.com/FIXSartoreto/orbuc-teste.git ```  
+* ``` git clone https://github.com/FIXSartoreto/obuc-teste.git ```  
 2. Entre na pasta do repositório que você acabou de clonar:  
 * ``` cd orbuc-teste ```
 3. Inicie a aplicação no seu Browser:  
