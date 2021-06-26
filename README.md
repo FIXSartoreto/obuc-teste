@@ -20,7 +20,8 @@ Certifique-se de ter instalado em sua maquina estas ferramentas: Git e um editor
 2. Entre na pasta do repositório que você acabou de clonar:  
 * ``` cd orbuc-teste ```
 3. Inicie a aplicação no seu Browser:  
-* Abra o arquivo index.html no seu navegador. ```
+* ``` Abra o arquivo index.html no seu navegador. ```
+
 Divirta-se!!  
 
 ## Como Usar  
